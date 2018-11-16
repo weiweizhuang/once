@@ -1,11 +1,12 @@
 /**index.wxss**/
-.welcome{
+.slide-image {
   width: 100%;
-  color: rgb(136, 114, 219);
-  font-size: 20PX;
-  margin-top:50px;
+  height: 100%;
 }
-.font{
-  text-shadow: 0 0 10px rgb(202, 107, 221);
-  transform: rotateY(360deg);
+.container {
+   height:420rpx;
+  width: 100%;
+}
+swiper {
+  height: 200px;
 }

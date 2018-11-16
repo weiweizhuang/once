@@ -20,21 +20,27 @@
     "list": [
       {
         "pagePath": "pages/index/index",
+        "text": "秒知",
+        "iconPath": "/imgs/1.png",
+        "selectedIconPath": "/imgs/1.png"
+      },
+      {
+        "pagePath": "pages/menu/menu",
         "text": "菜单",
-        "iconPath": "/imgs/home.jpg",
-        "selectedIconPath": "/imgs/home.jpg"
+        "iconPath": "/imgs/2.png",
+        "selectedIconPath": "/imgs/2.png"
       },
       {
         "pagePath": "pages/diary/diary",
         "text": "心事",
-        "iconPath": "/imgs/home.jpg",
-        "selectedIconPath": "/imgs/home.jpg"
+        "iconPath": "/imgs/3.png",
+        "selectedIconPath": "/imgs/3.png"
       },
       {
         "pagePath": "pages/photo/photo",
         "text": "照片",
-        "iconPath": "/imgs/home.jpg",
-        "selectedIconPath": "/imgs/home.jpg"
+        "iconPath": "/imgs/4.png",
+        "selectedIconPath": "/imgs/4.png"
       }
     ]
   }
