@@ -1,12 +1,41 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/diary/diary",
+    "pages/logs/logs",
+    "pages/photo/photo",
+    "pages/menu/menu"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#d88fd2",
-    "navigationBarTitleText":"一秒就知道",
-    "navigationBarTextStyle":"#fff"
+  "window": {
+    "backgroundTextStyle": "#000",
+    "navigationBarBackgroundColor": "#d4a254",
+    "navigationBarTitleText": "一秒就知道",
+    "navigationBarTextStyle": "#000"
+  },
+  "tabBar": {
+    "color": "#4e8660",
+    "selectedColor": "#4e8660",
+   "backgroundColor":"#f5f5f5",
+    "borderStyle": "#000",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "菜单",
+        "iconPath": "/imgs/home.jpg",
+        "selectedIconPath": "/imgs/home.jpg"
+      },
+      {
+        "pagePath": "pages/diary/diary",
+        "text": "心事",
+        "iconPath": "/imgs/home.jpg",
+        "selectedIconPath": "/imgs/home.jpg"
+      },
+      {
+        "pagePath": "pages/photo/photo",
+        "text": "照片",
+        "iconPath": "/imgs/home.jpg",
+        "selectedIconPath": "/imgs/home.jpg"
+      }
+    ]
   }
 }

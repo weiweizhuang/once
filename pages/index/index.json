@@ -1,1 +1,7 @@
-{}
+{
+  "usingComponents": {
+    "van-button": "../../components/dist/button/index",
+    "van-row": "../../components/dist/row/index",
+    "van-col": "../../components/dist/col/index"
+  }
+}
