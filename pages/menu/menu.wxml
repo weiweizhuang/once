@@ -1,2 +1,39 @@
 <!--pages/menu/menu.wxml-->
-<text>pages/menu/menu.wxml</text>
+<view class='menuList'>
+    <view class='menu-item'>
+          <block><image src="../../imgs/cs1.jpg"></image></block>
+        <text class="menuName">红烧牛肉面</text>
+       
+    </view>
+    <view class='menu-item'>
+        <block><image src="../../imgs/cs1.jpg"></image></block>
+        <text class="menuName">红烧牛肉面</text>
+    </view>
+    <view class='menu-item'>
+          <block><image src="../../imgs/cs1.jpg"></image></block>
+        <text class="menuName">红烧牛肉面</text>
+       
+    </view>
+    <view class='menu-item'>
+        <block><image src="../../imgs/cs1.jpg"></image></block>
+        <text class="menuName">红烧牛肉面</text>
+    </view>
+    <view class='menu-item'>
+          <block><image src="../../imgs/cs1.jpg"></image></block>
+        <text class="menuName">红烧牛肉面</text>
+       
+    </view>
+    <view class='menu-item'>
+        <block><image src="../../imgs/cs1.jpg"></image></block>
+        <text class="menuName">红烧牛肉面</text>
+    </view>
+    <view class='menu-item'>
+          <block><image src="../../imgs/cs1.jpg"></image></block>
+        <text class="menuName">红烧牛肉面</text>
+       
+    </view>
+    <view class='menu-item'>
+        <block><image src="../../imgs/cs1.jpg"></image></block>
+        <text class="menuName">红烧牛肉面</text>
+    </view>
+</view>

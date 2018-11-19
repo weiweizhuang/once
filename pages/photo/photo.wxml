@@ -1,2 +1,27 @@
 <!--pages/photo/photo.wxml-->
-<text>pages/photo/photo.wxml</text>
+<view class="imgList">
+    <view class="img-item">
+        <image src='../../imgs/cs4.jpg'></image>
+    </view>
+    <view class="img-item">
+        <image src='../../imgs/cs4.jpg'></image>
+    </view>
+    <view class="img-item">
+        <image src='../../imgs/cs4.jpg'></image>
+    </view>
+    <view class="img-item">
+        <image src='../../imgs/cs4.jpg'></image>
+    </view>
+    <view class="img-item">
+        <image src='../../imgs/cs4.jpg'></image>
+    </view>
+    <view class="img-item">
+        <image src='../../imgs/cs4.jpg'></image>
+    </view>
+    <view class="img-item">
+        <image src='../../imgs/cs4.jpg'></image>
+    </view>
+    <view class="img-item">
+        <image src='../../imgs/cs4.jpg'></image>
+    </view>
+</view>
