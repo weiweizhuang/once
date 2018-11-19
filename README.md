@@ -3,4 +3,4 @@
 ## 技术选型暂定
 + 小程序+vant weapp
 + 后台管理vue2.X+element
-+ 后端 nodeJs + thinkJs(暂定)
++ 后端 nodeJs + thinkJs(暂定)  无助的双眼
