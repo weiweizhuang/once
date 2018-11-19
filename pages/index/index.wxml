@@ -1,10 +1,55 @@
 <!--index.wxml-->
 <view class="container">
- <swiper  indicator-dots="{{indicatorDots}}"autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{circular}}">
-    <block wx:for="{{imgUrls}}" wx:key="{{index}}">
-      <swiper-item>
-        <image src="{{item}}" class="slide-image" width="355" height="150"/>
-      </swiper-item>
-    </block>
-  </swiper>
+    <!-- 轮播图 -->
+    <swiper  indicator-dots="{{indicatorDots}}"autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{circular}}">
+        <block wx:for="{{imgUrls}}" wx:key="{{index}}">
+            <swiper-item>
+                <image src="{{item}}" class="slide-image" width="355" height="150"/>
+            </swiper-item>
+        </block>
+    </swiper>
+    <!-- 推荐 --> 
+     <view class='recommend'>
+        <view class="section section_gap">
+            <view class="section__title">吐血推荐</view>
+                <scroll-view class="scroll-view_H" scroll-x="true" style="width: 100%">
+                    <view id="green" class="scroll-view-item_H bc_green">红烧牛肉面</view>
+                    <view id="red"  class="scroll-view-item_H bc_red">清蒸排骨</view>
+                    <view id="yellow" class="scroll-view-item_H bc_yellow">西红柿炒蛋</view>
+                    <view id="blue" class="scroll-view-item_H bc_blue">杂酱面</view>
+                </scroll-view>
+        </view>
+    </view> 
+    <!-- 日记 -->
+    <view class='diary'>
+        <view class="section__title">发现心事</view>
+        <view class='diary-item'>
+            <text class='title'>tomcat使用虚拟目录</text>
+            <view class='content'>
+                就一句话，你不想把web服务发布在tomcat的安装目录，想自己制定目录，如下： 修改tomcat/conf/server.xml,在标签下面增加一个，如下：     
+            </view>
+            <text class='foot'>2018-11-20 12:24</text>
+        </view>
+        <view class='diary-item'>
+            <text class='title'>tomcat使用虚拟目录</text>
+            <view class='content'>
+                就一句话，你不想把web服务发布在tomcat的安装目录，想自己制定目录，如下： 修改tomcat/conf/server.xml,在标签下面增加一个，如下：     
+            </view>
+            <text class='foot'>2018-11-20 12:24</text>
+        </view>
+        <view class='diary-item'>
+            <text class='title'>tomcat使用虚拟目录</text>
+            <view class='content'>
+                就一句话，你不想把web服务发布在tomcat的安装目录，想自己制定目录，如下： 修改tomcat/conf/server.xml,在标签下面增加一个，如下：     。。。。。。 xxx.cn
+            </view>
+            <text class='foot'>2018-11-20 12:24</text>
+        </view>
+        <view class='diary-item'>
+            <text class='title'>tomcat使用虚拟目录</text>
+            <view class='content'>
+                就一句话，你不想把web服务发布在tomcat的安装目录，想自己制定目录，如下： 修改tomcat/conf/server.xml,在标签下面增加一个，如下：     。。。。。。 xxx.cn" 
+            </view>
+            <text class='foot'>2018-11-20 12:24</text>
+        </view>
+    </view>
 </view>

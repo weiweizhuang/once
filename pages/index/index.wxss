@@ -10,3 +10,60 @@
 swiper {
   height: 200px;
 }
+.recommend{
+    background-color: rgba(255,215,0,.5);
+    padding:15px;
+    margin:10px 0;
+    margin-top:20px;
+}
+
+.scroll-view_H{
+    width: 100%;
+    height:100%;
+    /* height: 320rpx; */
+    white-space: nowrap;
+}
+.scroll-view-item_H{
+    width: 270px;
+    height: 160px;
+    margin: 10px 10px;
+    padding:5px;
+    background-color: yellowgreen;
+    display: inline-block;
+    border-radius: 8px;
+}
+.diary {
+    width: 100%;
+    background-color: rgba(255,215,0,.5);
+    padding:15px;
+    margin-top:20px;
+}
+.diary .section__title,.recommend .section__title{
+    padding-left: 30px;
+}
+.diary .diary-item{
+    padding:10px 0;
+    border: 1px solid #ccc;
+    border-left-color: transparent;
+    border-right-color: transparent;
+}
+.diary .title{
+    margin: 5px 0;
+    font-size: 18px;
+    font-weight: 700;
+}
+.diary .content{
+    width: 100%;
+    height: 45px;
+    padding:0 10px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+.diary .foot{
+    width: 100%;
+    padding:0 10px;
+    font-size: 12px;
+    color:#333;
+}
