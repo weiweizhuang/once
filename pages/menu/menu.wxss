@@ -1,1 +1,19 @@
 /* pages/menu/menu.wxss */
+.menu-item{
+    position: relative;
+    padding:10px 15px;
+}
+.menuName{
+    position:absolute;
+    bottom:30px;
+    left:40px;
+    font-size:18px;
+    color:#666;
+
+}
+image{
+    width: 100%;
+    height: 200px;
+    border-radius: 22px;
+    box-shadow: black 0px 0px 10px;
+}

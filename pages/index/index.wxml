@@ -8,6 +8,9 @@
             </swiper-item>
         </block>
     </swiper>
+    <view class="fontPosi" bindtap='goToPhoto'>
+        查看更多》》
+    </view>
     <!-- 推荐 --> 
      <view class='recommend'>
         <view class="section section_gap">
@@ -19,6 +22,9 @@
                     <view id="blue" class="scroll-view-item_H bc_blue">杂酱面</view>
                 </scroll-view>
         </view>
+    <view class="fontPosi" bindtap="goToMenu">
+        查看更多》》
+    </view>
     </view> 
     <!-- 日记 -->
     <view class='diary'>
@@ -51,5 +57,8 @@
             </view>
             <text class='foot'>2018-11-20 12:24</text>
         </view>
+        <view class="fontPosi">
+        查看更多》》
+    </view>
     </view>
 </view>

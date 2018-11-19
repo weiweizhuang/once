@@ -2,13 +2,20 @@
 .slide-image {
   width: 100%;
   height: 100%;
+  border-radius: 8%;
+  margin-right:10px;
 }
 .container {
    height:420rpx;
   width: 100%;
 }
+.fontPosi{
+    text-align: right;
+}
 swiper {
   height: 200px;
+  background: #fff;
+  padding:10px;
 }
 .recommend{
     background-color: rgba(255,215,0,.5);
@@ -46,6 +53,12 @@ swiper {
     border: 1px solid #ccc;
     border-left-color: transparent;
     border-right-color: transparent;
+}
+.diary .diary-item:first-child{
+   border-top-color: transparent;
+}
+.diary .diary-item:last-child{
+   border-bottom-color: transparent;
 }
 .diary .title{
     margin: 5px 0;
