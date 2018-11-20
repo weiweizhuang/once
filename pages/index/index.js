@@ -1,9 +1,11 @@
 //index.js
+const time = require('../../utils/util.js');
 //获取应用实例
 const app = getApp()
 var order = ['red', 'yellow', 'blue', 'green', 'red']
     Page({
         data: {
+            times:'',
             toView: 'red',
             scrollTop: 100,
             imgUrls: [
@@ -17,6 +19,12 @@ var order = ['red', 'yellow', 'blue', 'green', 'red']
             interval: 3000,
             duration: 1000,
             circular:true
+        },
+        onShow:function(){
+            console.log(111)
+            this.setData({
+                times: time.formatTime(new Date())
+            })
         },
         tap: function (e) {
             for (var i = 0; i < order.length; ++i) {
@@ -38,6 +46,16 @@ var order = ['red', 'yellow', 'blue', 'green', 'red']
             console.log(e);
             wx.reLaunch({
                 url: '../menu/menu'
+            })
+        },
+        onReachBottom: function () {
+            // 页面上拉触底事件的处理函数
+            console.log("test1 onReachBottom");
+            wx.showToast({
+                title: '别拉了，到底啦',
+                icon: 'clear',
+                duration:2000,
+                mask:true
             })
         }
     })
