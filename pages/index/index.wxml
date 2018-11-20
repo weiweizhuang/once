@@ -1,5 +1,17 @@
 <!--index.wxml-->
 <view class="container">
+  <view class="top">
+    <swiper  indicator-dots="{{indicatorDots}}"autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{circular}}">
+      <block wx:for="{{imgUrls}}" wx:key="{{index}}">
+        <swiper-item>
+          <image src="{{item}}" class="slide-image" width="355" height="150"/>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <view>
+    今日推荐
+  </view>
     <!-- 轮播图 -->
     <swiper  indicator-dots="{{indicatorDots}}"autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{circular}}">
         <block wx:for="{{imgUrls}}" wx:key="{{index}}">
@@ -62,3 +74,4 @@
     </view>
     </view>
 </view>
+
