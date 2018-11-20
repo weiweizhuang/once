@@ -1,17 +1,5 @@
 <!--index.wxml-->
 <view class="container">
-  <view class="top">
-    <swiper  indicator-dots="{{indicatorDots}}"autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{circular}}">
-      <block wx:for="{{imgUrls}}" wx:key="{{index}}">
-        <swiper-item>
-          <image src="{{item}}" class="slide-image" width="355" height="150"/>
-        </swiper-item>
-      </block>
-    </swiper>
-  </view>
-  <view>
-    今日推荐
-  </view>
     <!-- 轮播图 -->
     <swiper  indicator-dots="{{indicatorDots}}"autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{circular}}">
         <block wx:for="{{imgUrls}}" wx:key="{{index}}">
@@ -28,8 +16,8 @@
         <view class="section section_gap">
             <view class="section__title">吐血推荐</view>
                 <scroll-view class="scroll-view_H" scroll-x="true" style="width: 100%">
-                    <view id="green" class="scroll-view-item_H bc_green">红烧牛肉面</view>
-                    <view id="red"  class="scroll-view-item_H bc_red">清蒸排骨</view>
+                    <view id="green" class="scroll-view-item_H bc_green">红烧牛肉面11</view>
+                    <view id="red"  class="scroll-view-item_H bc_red">清蒸排骨22</view>
                     <view id="yellow" class="scroll-view-item_H bc_yellow">西红柿炒蛋</view>
                     <view id="blue" class="scroll-view-item_H bc_blue">杂酱面</view>
                 </scroll-view>
