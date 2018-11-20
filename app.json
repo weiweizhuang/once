@@ -4,7 +4,8 @@
     "pages/diary/diary",
     "pages/logs/logs",
     "pages/photo/photo",
-    "pages/menu/menu"
+    "pages/menu/menu",
+    "pages/menuDetail/menuDetail"
   ],
   "window": {
     "backgroundTextStyle": "#000",
@@ -15,7 +16,7 @@
   "tabBar": {
     "color": "#4e8660",
     "selectedColor": "#4e8660",
-   "backgroundColor":"#f5f5f5",
+    "backgroundColor": "#f5f5f5",
     "borderStyle": "#000",
     "list": [
       {

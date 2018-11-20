@@ -1,4 +1,4 @@
-// pages/menu/menu.js
+// pages/menuDetail/menuDetail.js
 Page({
 
   /**
@@ -7,21 +7,12 @@ Page({
   data: {
 
   },
-  clickItems:function(e){
-    console.log(e);
-    console.log(e.currentTarget.dataset.weiType)
-    let type = e.currentTarget.dataset.weiType
-    if (type  == "7"){
-      wx.navigateTo({
-        url: '../menuDetail/menuDetail?id='+type
-      })
-    }
-  },
+
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    console.log(options)
   },
 
   /**

@@ -1,9 +1,8 @@
 <!--pages/menu/menu.wxml-->
 <view class='menuList'>
-    <view class='menu-item'>
+    <view class='menu-item' data-wei-type="7" bindtap='clickItems'>
           <block><image src="../../imgs/cs1.jpg"></image></block>
         <text class="menuName">红烧牛肉面</text>
-       
     </view>
     <view class='menu-item'>
         <block><image src="../../imgs/cs1.jpg"></image></block>

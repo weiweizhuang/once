@@ -1,1 +1,10 @@
 <!--pages/diary/diary.wxml-->
+<view class="diaryBody">
+    <van-panel title="标题" desc="描述信息" status="状态" use-footer-slot>
+  <view>内容</view>
+  <view slot="footer">
+    <van-button size="small">按钮</van-button>
+    <van-button size="small" type="danger">按钮</van-button>
+  </view>
+</van-panel>
+</view>

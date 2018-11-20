@@ -1,1 +1,8 @@
 /* pages/diary/diary.wxss */
+page{
+  /* background-color: yellowgreen; */
+}
+.diaryBody{
+  margin:10px 15px;
+  padding:10px;
+}
