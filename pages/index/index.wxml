@@ -34,7 +34,7 @@
             <view class='content'>
                 就一句话，你不想把web服务发布在tomcat的安装目录，想自己制定目录，如下： 修改tomcat/conf/server.xml,在标签下面增加一个，如下：     
             </view>
-            <text class='foot'>2018-11-20 12:24</text>
+            <text class='foot'>{{times}}</text>
         </view>
         <view class='diary-item'>
             <text class='title'>tomcat使用虚拟目录</text>
